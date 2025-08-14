@@ -5,6 +5,7 @@ export default function App(): ReactNode {
   return(
     <main>
       <Header/>
+       я
     </main>
   ) 
 } 
