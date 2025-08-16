@@ -2,7 +2,8 @@ import type { ReactNode } from "react";
 interface PropTypes {
     text?: string,
     icon?: string,
-    type: "reset" | "button" | "submit" | undefined
+    type: "reset" | "button" | "submit" | undefined,
+    onclick?: () => void
 }
 
 export default function Button({text, icon, type}: PropTypes): ReactNode {
