@@ -16,8 +16,12 @@ export default function Projects({content, name, image, linkWeb, linkSrc}: Proje
                 <img src={image} alt="" />
                 <p>{content}</p>
                 <div>
-                    <Button text="Website" type = "button" />
-                    <Button text="Source" type = "button"/>
+                    <a href={linkWeb}>
+                        <Button text="Website" type = "button"/>
+                    </a>
+                    <a href={linkSrc}>
+                        <Button text="Source" type = "button"/>
+                    </a>
                 </div>
             </div>
         </section>
