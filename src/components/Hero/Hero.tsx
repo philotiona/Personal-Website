@@ -4,8 +4,8 @@ export default function Hero(): ReactNode {
     return(
         <main className="h-screen w-full">
             <section className="w-full flex flex-row justify-center items-center">
-                <img className="w-16 h-16 flex justify-center items-center " src="moon.svg" alt="" />
-                <p className="h-24 text-4xl flex justify-center items-center">LZHAS KELGENBAY</p>
+                <img className="w-12 h-12 flex justify-center items-center " src="moon2.svg" alt="" />
+                <p className="h-12 text-4xl flex justify-center items-end text-">lzhas Kelgenbay</p>
             </section>
             <section>
                 <div>
