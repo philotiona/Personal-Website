@@ -24,6 +24,7 @@ export default function Projects({content, name, image, linkWeb, linkSrc}: Proje
                     </a>
                 </div>
             </div>
+            
         </section>
     )
 }
