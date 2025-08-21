@@ -1,5 +1,21 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "Megidana";
+  src: url("fonts\fonnts.com-Megidana.otf") format("otf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Ortica";
+  src: url("fonts\OrticaLinear-Light.otf") format("otf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Daily";
+  src: url("fonts\CSDaily-Regular_demo.otf") format("otf");
+}
 
 :root {
     --color-blue: #1231ab;
