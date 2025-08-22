@@ -11,7 +11,7 @@ export default function ProjectList(): ReactNode {
                 <Projects name = "CloudyWord" content="Speed Reader with input text and PDF parser" linkWeb="https://www.cloudyword.com/" linkSrc="https://github.com/philotiona/Cloudwords-SpeedReader" image="MOCKED"/>
             </div>
             <div className="absolute w-full h-screen opacity-10">
-                <img src="doodls.jpg" alt="" className="w-full h-full"/>
+                <img src="snowflake.jpg" alt="" className="w-full h-full"/>
             </div>
         </section>
     )

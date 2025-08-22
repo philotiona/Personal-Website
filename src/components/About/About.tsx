@@ -2,8 +2,8 @@ import type { ReactNode } from "react";
 
 export default function About(): ReactNode {
     return(
-        <section>
-            
+        <section className="bg-[var(--color-darkblue)] w-full h-screen flex flex-row flex-wrap">
+            About
         </section>
     )
 }
