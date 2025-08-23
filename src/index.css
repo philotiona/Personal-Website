@@ -25,6 +25,8 @@
     --color-cyan2: #15afc1;
     --color-darkblue: #0c09bc;
     --color-darkblue2: #103278;
+    --color-cosmicblue: #003249;
+    --color-ultramarine: #110bb4; 
     background: var(--color-blue);
     color: var(--color-whitish);
     font-family: 'Space Grotesk', sans-serif;

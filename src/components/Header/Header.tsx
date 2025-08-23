@@ -1,17 +1,19 @@
 import type { ReactNode } from "react";
 
 export default function Header(): ReactNode {
-    return(
-        <header className="w-full h-fit">
-            <ul className="flex flex-row items-center justify-around p-1">
-                {/*
-                <a href=""><li className="text-4xl">frontend</li></a>
-                <a href=""><li className="text-8xl">olzhas kelgnebay</li></a>
-                <a href=""><li className="text-4xl">developer</li></a>*/}
-                <p className="text-4xl">frontend</p>
-                <p className="text-8xl">olzhas kelgenbay</p>
-                <p className="text-4xl">developer</p>
-            </ul>
-        </header>
-    )
+  return (
+    <header className="w-full h-fit px-4 sm:px-8 py-3">
+      <ul className="flex flex-col sm:flex-row items-center sm:items-baseline justify-around gap-2 sm:gap-6">
+        <li className="text-xl sm:text-base md:text-lg lg:text-4xl">frontend</li>
+
+        <li className="w-full sm:w-auto text-4xl sm:text-4xl md:text-5xl lg:text-8xl font-bold leading-tight text-center whitespace-normal break-words">
+          olzhas kelgenbay
+        </li>
+
+        <li className="text-xl sm:text-base md:text-lg lg:text-4xl">
+          developer
+        </li>
+      </ul>
+    </header>
+  );
 }

@@ -10,9 +10,9 @@ export default function ProjectList(): ReactNode {
                 </p>
                 <Projects name = "CloudyWord" content="Speed Reader with input text and PDF parser" linkWeb="https://www.cloudyword.com/" linkSrc="https://github.com/philotiona/Cloudwords-SpeedReader" image="MOCKED"/>
             </div>
-            <div className="absolute w-full h-screen opacity-10">
+            {/* <div className="absolute w-full h-screen opacity-10">
                 <img src="snowflake.jpg" alt="" className="w-full h-full"/>
-            </div>
+            </div> */}
         </section>
     )
 }
