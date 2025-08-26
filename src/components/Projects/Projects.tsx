@@ -11,9 +11,9 @@ interface ProjectProps{
 export default function Projects({content, name, image, linkWeb, linkSrc}: ProjectProps): ReactNode {
     return(
         <section>
-            <div>
+            <div className="">
                 <p>{name}</p>
-                <img src={image} alt="" />
+                <img src={image} alt="" className="w-[12rem] aspect-square"/>
                 <p>{content}</p>
                 <div>
                     <a href={linkWeb} target="_blank">

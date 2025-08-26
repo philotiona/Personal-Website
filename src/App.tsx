@@ -8,6 +8,7 @@ export default function App(): ReactNode {
     <div className="flex relative h-screen w-full">
       <div className="absolute inset-0 h-screen w-full opacity-40 bg-[var(--color-ultramarine)]"> 
         <video src="cosmos2.mp4" autoPlay muted width="100%" loop className="object-cover w-screen h-screen"></video>
+    
       </div>
       
       {/* <div className="absolute w-1/5 h-2/5 opacity-50">
